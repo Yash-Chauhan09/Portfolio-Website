@@ -1,0 +1,23 @@
+{{>head}}
+
+<body>
+    {{>navbar}}
+    <section class="s2 ">
+        <div class="main-container">
+            <h3 style="text-align:center;padding-top: 10px;padding-bottom: 15px; "> Get In Touch</h3>
+            <form id="contactform" action="/contact" method="POST"
+            onsubmit="submitted()" >
+                <label for="name">Name</label>
+                <input class="inpfield" type="text" name="name" id="name" >
+                <label for="subject">Subject</label>
+                <input class="inpfield" type="text" name="subject" id="subject" >
+                <label for="email">Email</label>
+                <input class="inpfield" type="email" name="email" id="email" >
+                <label for="message">Message</label>
+                <textarea class="inpfield" name="message" id="message" cols="20" rows="2"></textarea >
+                            <input class="inpfield " id="submitbtn" type="submit" value="Submit">
+                        </form>
+                    </div>
+</body>
+<script src="js/app.js"></script>
+</html>
