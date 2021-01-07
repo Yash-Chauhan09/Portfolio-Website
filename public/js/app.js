@@ -30,6 +30,3 @@ function setTheme(mode){
     }
     localStorage.setItem('theme',mode);
 }
-const submitted = ()=>{
-alert('Your message has been recieved:)')
-}
